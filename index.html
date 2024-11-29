@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+
+    <div id="loading-screen">
+      <div class="loader">
+        <div class="react-logo">
+          <div class="nucleus"></div>
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+          <div class="orbit orbit-3"></div>
+        </div>
+        <div class="loading-text">Loading...</div>
+      </div>
+    </div>
+
+    <!-- Comment out or remove temporarily -->
+    <!-- <div id="particles-js"></div> -->
+    <div id="cursor-glow"></div>
+
+    <nav class="navbar">
+      <div class="portfolio-title">Akshat's Portfolio</div>
+      <div class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-container">
+          <div class="hero-image">
+            <img src="avatar.jpeg" alt="Developer Avatar" />
+          </div>
+          <div class="hero-content">
+            <div class="hero">
+              <div class="intro-text">
+                <h1>
+                  Hi, I'm <span class="gradient-text">Akshat Kumar &</span>
+                </h1>
+              </div>
+              <div class="profession">
+                <span>I am a </span
+                ><span class="gradient-text" id="typed-text"></span>
+              </div>
+            </div>
+            <div class="cta-buttons">
+              <a href="3008_akshat_kumar_bt_cse.pdf" download class="download-cv"
+                >Download CV</a
+              >
+              <a href="mailto:kumarakshat366@gmail.com" class="hire-me">Hire Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-separator"></div>
+
+      <section id="tech-stack" class="tech-stack">
+        <h2>Experience With</h2>
+        <div class="tech-grid">
+          <div class="tech-item">
+            <img src="html.png" alt="HTML" />
+            <span>HTML</span>
+          </div>
+          <div class="tech-item">
+            <img src="css.png" alt="CSS" />
+            <span>CSS</span>
+          </div>
+          <div class="tech-item">
+            <img src="javascript.png" alt="JavaScript" />
+            <span>JavaScript</span>
+          </div>
+          <div class="tech-item">
+            <img src="react.png" alt="React" />
+            <span>React</span>
+          </div>
+          <div class="tech-item">
+            <img src="bootstrap.png" alt="Bootstrap" />
+            <span>Bootstrap</span>
+          </div>
+          <div class="tech-item">
+            <img src="tailwind.png" alt="Tailwind" />
+            <span>Tailwind</span>
+          </div>
+          <div class="tech-item">
+            <img src="git.png" alt="Git" />
+            <span>Git</span>
+          </div>
+          <div class="tech-item">
+            <img src="github.png" alt="GitHub" />
+            <span>GitHub</span>
+          </div>
+          <div class="tech-item">
+            <img src="figma.png" alt="Figma" />
+            <span>Figma</span>
+          </div>
+          <div class="tech-item">
+            <img src="mongodb.png" alt="MongoDB" />
+            <span>MongoDB</span>
+          </div>
+          <div class="tech-item">
+            <img src="cpp.png" alt="C++" />
+            <span>C++</span>
+          </div>
+          <div class="tech-item">
+            <img src="python.png" alt="Python" />
+            <span>Python</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-separator"></div>
+
+      <section id="projects" class="projects">
+        <h2 class="project-heading">MY PROJECTS</h2>
+        <div class="project-grid">
+          <a
+            href="https://github.com/AKR4PC/PortfolioWebsite"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="github-link"
+          >
+            <div class="project-tab">
+              <img src="project1.png" alt="Portfolio Website" />
+              <div class="project-info">
+                <div class="project-text">
+                  <span class="visit-text">CLICK HERE TO VISIT</span>
+                  <span class="project-title">PORTFOLIO WEBSITE</span>
+                </div>
+                <div class="arrow-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M7 17L17 7M17 7H7M17 7V17"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://to-do-web-zeta.vercel.app" target="_blank" rel="noopener noreferrer" class="project-link">
+            <div class="project-tab">
+              <img src="project2.png" alt="ToDo App" />
+              <div class="project-info">
+                <div class="project-text">
+                  <span class="visit-text">CLICK HERE TO VISIT</span>
+                  <span class="project-title">TO DO APP</span>
+                </div>
+                <div class="arrow-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M7 17L17 7M17 7H7M17 7V17"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <div class="section-separator"></div>
+
+      <section id="experience" class="experience-section">
+        <h2 class="section-title">EXPERIENCE</h2>
+
+        <div class="experience-items">
+          <!-- Google Experience -->
+          <div class="experience-item">
+            <div class="experience-header">
+              <div class="company-logo">
+                <img src="google.png" alt="Google" />
+              </div>
+              <div class="role-info">
+                <h3>
+                  Google Developer Group Core Member On Campus GB Pant DSEU
+                  Okhla
+                </h3>
+              </div>
+              <div class="duration">OCT 2024 - Present</div>
+            </div>
+            <p class="experience-description">
+              As a Core Member of Google Developer Group on campus GB PANT DSEU
+              OKHLA, I have been actively involved in organizing and
+              participating in various events and workshops related to Google
+              technologies. I have also contributed to the development of web
+              applications using Google technologies, showcasing my skills in
+              web development and Google technologies.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <audio id="hoverSound" preload="auto">
+      <source src="hover.mp3" type="audio/mp3" />
+    </audio>
+
+    <!-- Comment out or remove temporarily -->
+    <!-- <script src="particles.js"></script> -->
+    <!-- <script src="particles-config.js"></script> -->
+    <!-- <script src="mesh-background.js"></script> -->
+
+    <!-- Add liquid background -->
+    <script src="liquid-background.js"></script>
+    <script src="script.js"></script>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="contact-info">
+          <h3>Contact</h3>
+          <div class="email">
+            <img src="email.png" alt="Email Icon" class="icon">
+            <a href="mailto:kumarakshat366@gmail.com">kumarakshat366@gmail.com</a>
+          </div>
+          <div class="email">
+            <img src="email.png" alt="Email Icon" class="icon">
+            <a href="mailto:kumarakshat366@hotmail.com">kumarakshat366@hotmail.com</a>
+          </div>
+        </div>
+        <div class="about-info">
+          <p>Akshat Kumar</p>
+          <p>DSEU GB Pant Okhla</p>
+          <p>Tech Enthusiast & Web Developer</p>
+          <p>Passionate about DSA in C++</p>
+          <p>Always eager to learn new technologies</p>
+        </div>
+      </div>
+      <div class="social-media">
+        <h3>Follow Me</h3>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/akshat-kumar-40b991261/" target="_blank" rel="noopener noreferrer">
+            <img src="linkedin.png" alt="LinkedIn" class="icon">
+          </a>
+          <a href="https://www.instagram.com/akshut_07/" target="_blank" rel="noopener noreferrer">
+            <img src="instagram.png" alt="Instagram" class="icon">
+          </a>
+          <a href="https://x.com/AKSHATK20045921" target="_blank" rel="noopener noreferrer">
+            <img src="x.png" alt="X" class="icon">
+          </a>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        &copy; 2024 Akshat Kumar. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
